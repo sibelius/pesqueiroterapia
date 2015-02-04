@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+	http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+		<url>
+			<loc>http://www.pesqueiroterapia.com.br/</loc>
+			<priority>1</priority>
+			<changefreq>daily</changefreq>
+		</url>
+	
+		<url>
+			<loc>http://www.pesqueiroterapia.com.br/index.html</loc>
+			<priority>1</priority>
+			<changefreq>monthly</changefreq>
+		</url>
+	
+		<url>
+			<loc>http://www.pesqueiroterapia.com.br/home.html</loc>
+			<priority>1</priority>
+			<changefreq>monthly</changefreq>
+		</url>
+	
+		<url>
+			<loc>http://www.pesqueiroterapia.com.br/peixes.html</loc>
+			<priority>1</priority>
+			<changefreq>monthly</changefreq>
+		</url>
+	
+		<url>
+			<loc>http://www.pesqueiroterapia.com.br/galeriaFotos.html</loc>
+			<priority>1</priority>
+			<changefreq>daily</changefreq>
+		</url>
+	
+		<url>
+			<loc>http://www.pesqueiroterapia.com.br/galeriaFotos1.html</loc>
+			<priority>1</priority>
+			<changefreq>daily</changefreq>
+		</url>
+	
+		<url>
+			<loc>http://www.pesqueiroterapia.com.br/galeriaFotos2.html</loc>
+			<priority>1</priority>
+			<changefreq>daily</changefreq>
+		</url>
+
+		<url>
+			<loc>http://www.pesqueiroterapia.com.br/galeriaFotos3.html</loc>
+			<priority>1</priority>
+			<changefreq>daily</changefreq>
+		</url>
+
+		<url>
+			<loc>http://www.pesqueiroterapia.com.br/galeriaFotos4.html</loc>
+			<priority>1</priority>
+			<changefreq>daily</changefreq>
+		</url>
+
+		<url>
+			<loc>http://www.pesqueiroterapia.com.br/galeriaFotos5.html</loc>
+			<priority>1</priority>
+			<changefreq>daily</changefreq>
+		</url>
+
+		<url>
+			<loc>http://www.pesqueiroterapia.com.br/galeriaFotos6.html</loc>
+			<priority>1</priority>
+			<changefreq>daily</changefreq>
+		</url>
+
+		<url>
+			<loc>http://www.pesqueiroterapia.com.br/galeriaFotos7.html</loc>
+			<priority>1</priority>
+			<changefreq>daily</changefreq>
+		</url>
+
+		<url>
+			<loc>http://www.pesqueiroterapia.com.br/galeriaFotos8.html</loc>
+			<priority>1</priority>
+			<changefreq>daily</changefreq>
+		</url>
+
+		<url>
+			<loc>http://www.pesqueiroterapia.com.br/galeriaFotos9.html</loc>
+			<priority>1</priority>
+			<changefreq>daily</changefreq>
+		</url>
+	
+		<url>
+			<loc>http://www.pesqueiroterapia.com.br/galeriaFotos10.html</loc>
+			<priority>1</priority>
+			<changefreq>daily</changefreq>
+		</url>
+
+		<url>
+			<loc>http://www.pesqueiroterapia.com.br/dicas.html</loc>
+			<priority>1</priority>
+			<changefreq>monthly</changefreq>
+		</url>
+	
+		<url>
+			<loc>http://www.pesqueiroterapia.com.br/localizacao.html</loc>
+			<priority>1</priority>
+			<changefreq>monthly</changefreq>
+		</url>
+	
+		<url>
+			<loc>http://www.pesqueiroterapia.com.br/contato.html</loc>
+			<priority>1</priority>
+			<changefreq>monthly</changefreq>
+		</url>
+	</urlset>

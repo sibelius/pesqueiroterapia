@@ -1,0 +1,358 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+#pagina {
+	margin: 0 auto;
+	width: 800px;
+	border: 2px solid #000000;
+	background-color: #CAFF70;
+}
+
+#centro {
+	margin: 0 auto;
+	padding: 10px;
+	width: 700px;
+	text-align: center;
+}
+
+#centro h1 {
+	font-family: georgia, serif;
+	font-size: 28px;
+	color: #0000ff;
+}
+
+#centro a {
+	text-decoration: none;
+	color: #0000ff;
+}
+
+#centro img {
+	border-style: none;
+}
+
+#titulo {
+	padding-bottom: 3px;
+	background-color: #123456;
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Comic Sans MS', cursive;
+	font-size: 24px;	
+}
+
+#logo {
+	margin-top: 5px;
+	margin-left: 10px;
+	width: 160px;
+	height: 120px;
+	float:left;
+	background-image: url('../img/mini_logo.gif');
+	background-repeat: no-repeat;
+}
+
+#banner {
+	margin: 10px;
+	width: 580px;
+	height: 110px;
+	background: #00FF00 url('../img/banner.gif') no-repeat;
+	float: right;
+	border: 1px solid #000000;
+}
+
+#menu {
+	float:left;
+      	width:95%;
+	background-color: #CAFF70;
+	font-family: times, serif;
+      	font-size:93%;
+      	line-height:normal;
+	margin-left: 20px;
+}
+
+#menu ul {
+	margin:0;
+	padding:5px 10px 0 20px;
+	list-style:none;
+}
+
+#menu li {
+	display:inline;
+     	margin:0;
+      	padding:0;	
+}
+
+#menu a {
+	float:left;
+      	background:url("../img/tableft.gif") no-repeat left top;
+      	margin:0;
+      	padding:0 0 0 5px;
+      	text-decoration:none;
+	width: auto;
+}
+
+#menu a span {
+	float:left;
+	display:block;
+      	background:url("../img/tabright.gif") no-repeat right top;
+      	padding:5px 15px 4px 6px;
+      	color:#464E42;
+	width: auto;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#menu a span {
+	float:none;
+	width: auto;
+}
+/* End IE5-Mac hack */
+
+#menu a:hover span,
+#menu a.aqui:link span,
+#menu a.aqui:visited span {
+	color:#FFF;
+}
+
+#menu a.aqui:link {
+	z-index:102;	
+}
+
+#menu a:hover,
+#menu a.aqui:link,
+#menu a.aqui:visited {
+	background-position:0% -42px;
+}
+
+#menu a:hover span,
+#menu a.aqui:link span,
+#menu a.aqui:visited span {
+	background-position:100% -42px;
+}
+
+#conteudo {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: #FFFFFF;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+	border: 2px solid #70A1EB;		
+	clear:both;
+	color: #228B22;
+}
+
+#conteudo h1 {
+	font-family: "comic sans ms", cursive;
+	font-size: 20px;
+	color: #000000;
+}
+
+#conteudo h2 {
+	font-family: "comic sans ms", cursive;
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+}
+
+#conteudo h3 {
+	font-size: 16px;
+	color: #000000;
+	display:inline;
+}
+
+#conteudo h4 {
+	font-family: "comic sans ms", cursive;
+	font-size: 30px;
+	color: #000000;
+	text-align: center;
+}
+
+#conteudo .black {
+	color: #000000;
+}
+
+#conteudo .left {
+	float:left;
+	margin-right: 15px;
+	width: 220px;
+	text-align: center;
+}
+
+#conteudo ul.peixe {
+	list-style-type: none;
+	margin: 20px;
+	padding:0;
+}
+
+#conteudo ul.peixe li {
+	background-image: url('../img/lista.jpg');
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-left:30px;
+	padding-bottom: 10px;	
+	padding-top: 2px;
+}
+
+#conteudo a {
+	font-family:"comic sans ms", cursive;
+	color: #0000ff;
+}
+
+#conteudo a:hover {
+	color: #000000;	
+}
+
+#conteudo ul.dicas {
+	margin: 20px;
+}
+
+#conteudo ul.dicas li {
+	padding-bottom: 10px;
+}
+
+#mapa {
+	margin:0 auto;
+	text-align: center;
+}
+
+/* Galeria de fotos */
+
+.galeria {
+	width: 680px;
+	height: 420px;
+	margin:0 auto;
+	text-align: left;
+}
+
+.img-aqui {
+	background: #fff url('../img/logo.gif') center no-repeat;
+	width: 500px;
+	height: 375px;
+	top: 5px;
+	position: relative;
+	float: right;
+}
+
+ul.fotos {
+	position: relative;
+	list-style: none;
+	width: 162px;
+	padding: 1px;
+	background: #999;
+	margin: 0;
+	padding: 0;
+}
+
+.fotos:after {
+	display: block;
+	content: ".";
+	height: 0;
+	font-size: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+ul.fotos li {
+	width: 75px;
+	height: 50px;
+	float: left;
+	border: 2px solid #444;
+	margin: 1px;
+}
+
+ul.fotos li img {
+	border: none;
+	width: 75px;
+	height: 50px;
+}
+
+ul.fotos li span img {
+	width: 500px;
+	height: 375px;
+}
+
+ul.fotos li span.vert img {
+	width: 280px;
+	height: 375px;
+}
+
+
+ul.fotos a {
+	display: block;
+	text-decoration: none;
+}
+
+ul.fotos a span {
+	display: none;
+	text-decoration: none;
+}
+
+ul.fotos a:hover span {
+	display: block;
+	position: absolute;
+	top: 5px;
+	left: 177px;
+	background: #fff;
+	border: 2px solid #70A1ED;
+}
+
+ul.fotos a:hover span.vert {
+	display: block;
+	position: absolute;
+	top: 5px;
+	left: 290px;
+	background: #fff;
+	border: 2px solid #70A1ED;
+}
+
+.navgaleria {
+	clear: both;
+	text-align: center;	
+}
+
+.navgaleria a {
+	font-family:"comic sans ms", cursive;
+	text-decoration: none;
+	color: #0000ff;
+}
+
+.navgaleria a:hover {
+	text-decoration: underline;
+	
+}
+
+#quadro {
+	margin:0 auto;
+	padding: 10px;
+	border: 2px solid #000000;
+	width: 400px;
+}
+
+#quadro a {
+	color: #000000;
+	text-decoration: none;
+}
+
+#quadro a:hover {
+	color: #0000ff;
+	text-decoration: underline;
+}
+
+#rodape {
+	background-color: #123456;
+	clear:both;
+	color: #ffffff;
+	text-align: center;
+	font-family:verdana, sans-serif;
+	font-size: 12px;
+}
+
+#rodape a {
+	font-size: 14px;
+	color: #ffffff;
+}
+
+#rodape h1 {
+	font-size: 40px;	
+}
